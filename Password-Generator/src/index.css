@@ -1,0 +1,41 @@
+.appC{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+.MainC{
+  border: 1px solid gray;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.mid{
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.mid input{
+  padding: 10px;
+  width: 200px;
+  border-radius: 15px 5px 5px 15px;
+}
+
+.mid button{
+  background-color: gold;
+  margin-top: 2px;
+  padding: 10px 20px;
+  border-radius: 1px 15px 15px 1px;
+}
+
+.down{
+  display: flex;
+}
+
